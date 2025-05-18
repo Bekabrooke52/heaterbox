@@ -7,3 +7,5 @@ Run code
 ```
 sudo python3 heater-controller.py
 ```
+
+![heaterbox](https://github.com/user-attachments/assets/2a5f0ab4-2abe-415a-aa5d-fd371371f66a)
