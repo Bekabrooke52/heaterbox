@@ -12,7 +12,7 @@ DHT11_PIN = 27  # GPIO pin connected to DHT11 data pin (using the pin from your 
 RELAY_PIN = 17  # GPIO pin connected to the relay control pin
 
 # Temperature threshold
-TEMP_THRESHOLD = 24  # Temperature in Celsius
+TEMP_THRESHOLD = 20  # Temperature in Celsius
 
 # Setup GPIO
 GPIO.setmode(GPIO.BCM)  # Use Broadcom pin numbering
@@ -51,12 +51,12 @@ def control_relay(temperature):
             print(
                 f"Temperature {temperature:.2f}°C is above threshold ({TEMP_THRESHOLD}°C). Turning relay ON."
             )
-            GPIO.output(RELAY_PIN, GPIO.LOW)  # Turn relay ON
+            GPIO.output(RELAY_PIN, GPIO.LOW)  # Turn relay OFF
         else:
             print(
                 f"Temperature {temperature:.2f}°C is below threshold ({TEMP_THRESHOLD}°C). Turning relay OFF."
             )
-            GPIO.output(RELAY_PIN, GPIO.HIGH)  # Turn relay OFF
+            GPIO.output(RELAY_PIN, GPIO.HIGH)  # Turn relay ON
     else:
         print(
             "Error: Could not read temperature.  Keeping relay state unchanged."
