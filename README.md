@@ -1,8 +1,8 @@
 # Heater box
 
 Hardware
-* JBtek 4 Channel DC 5V Relay
-* DHT11 Temperature and Humidity Sensor
+* [JBtek 4 Channel DC 5V Relay]([https://www.amazon.com/JBtek-Channel-Module-Arduino-Raspberry/dp/B00KTEN3TM/ref=sr_1_3])
+* [DHT11 Temperature and Humidity Sensor]([https://www.amazon.com/Temperature-Humidity-Digital-3-3V-5V-Raspberry/dp/B07WT2HJ4F/ref=sr_1_8])* 
 
 This Python script, heater-controller.py, provides a solution for controlling a relay-based heater system using temperature readings from a DHT11 sensor. The system is designed to maintain a desired temperature by turning the heater on or off based on a predefined threshold.
 
