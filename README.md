@@ -19,14 +19,13 @@ sudo python3 heater-controller.py
 ```
 
 ## Live Setup
-![heaterbox](https://github.com/rbm0622/heaterbox/blob/main/images/Heater-Box.jpg?raw=true)
+
 
 ## Wiring Diagram
-![Heater Box](https://github.com/user-attachments/assets/a6543edc-1d04-49fb-80e9-72d3af53d4b4)
+![heaterbox wireframe](https://github.com/rbm0622/heaterbox/blob/main/images/Heater-Box.jpg?raw=true)
 
 ## GPIO Pin Mapping
-![pinmapping](https://github.com/user-attachments/assets/fb4ac874-0601-4152-af74-935b5f818737)
+![GPIO Pin Map](https://github.com/rbm0622/heaterbox/blob/main/images/pinmapping.jpeg?raw=true)
 
 ## Diagram with Heater and Fan (WIP)
-![Heater Box 1](https://github.com/user-attachments/assets/bf8721df-f7bb-4a8c-957d-b7e598095206)
-
+![heaterbox wireframe with heater and fan](https://github.com/rbm0622/heaterbox/blob/main/images/Heater-Box-WIP.jpg?raw=true)
