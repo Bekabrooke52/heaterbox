@@ -23,3 +23,7 @@ sudo python3 heater-controller.py
 
 ## Diagram
 ![Heater Box](https://github.com/user-attachments/assets/a6543edc-1d04-49fb-80e9-72d3af53d4b4)
+
+## Pin Mapping
+![pinmapping](https://github.com/user-attachments/assets/fb4ac874-0601-4152-af74-935b5f818737)
+
