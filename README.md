@@ -19,7 +19,7 @@ sudo python3 heater-controller.py
 ```
 
 ## Live Setup
-![heaterbox](https://github.com/user-attachments/assets/2a5f0ab4-2abe-415a-aa5d-fd371371f66a)
+![heaterbox](https://github.com/rbm0622/heaterbox/blob/main/images/Heater-Box.jpg?raw=true)
 
 ## Wiring Diagram
 ![Heater Box](https://github.com/user-attachments/assets/a6543edc-1d04-49fb-80e9-72d3af53d4b4)
