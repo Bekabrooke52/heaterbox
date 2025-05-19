@@ -18,10 +18,10 @@ Run code
 sudo python3 heater-controller.py
 ```
 
-## Setup
+## Live Setup
 ![heaterbox](https://github.com/user-attachments/assets/2a5f0ab4-2abe-415a-aa5d-fd371371f66a)
 
-## Diagram
+## Wiring Diagram
 ![Heater Box](https://github.com/user-attachments/assets/a6543edc-1d04-49fb-80e9-72d3af53d4b4)
 
 ## GPIO Pin Mapping
