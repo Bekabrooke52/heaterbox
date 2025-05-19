@@ -27,3 +27,6 @@ sudo python3 heater-controller.py
 ## GPIO Pin Mapping
 ![pinmapping](https://github.com/user-attachments/assets/fb4ac874-0601-4152-af74-935b5f818737)
 
+## Diagam with Heater and Fan (WIP)
+![Heater Box 1](https://github.com/user-attachments/assets/bf8721df-f7bb-4a8c-957d-b7e598095206)
+
