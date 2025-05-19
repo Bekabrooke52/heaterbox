@@ -18,12 +18,12 @@ Run code
 sudo python3 heater-controller.py
 ```
 
-## Image
+## Setup
 ![heaterbox](https://github.com/user-attachments/assets/2a5f0ab4-2abe-415a-aa5d-fd371371f66a)
 
 ## Diagram
 ![Heater Box](https://github.com/user-attachments/assets/a6543edc-1d04-49fb-80e9-72d3af53d4b4)
 
-## Pin Mapping
+## GPIO Pin Mapping
 ![pinmapping](https://github.com/user-attachments/assets/fb4ac874-0601-4152-af74-935b5f818737)
 
