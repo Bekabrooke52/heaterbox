@@ -9,10 +9,10 @@ import time  # Import the time module
 
 # Pin definitions
 DHT11_PIN = 27  # GPIO pin connected to DHT11 data pin (using the pin from your DHT11.py)
-RELAY_PIN = 17  # GPIO pin connected to the relay control pin
+RELAY_PIN = 18  # GPIO pin connected to the relay control pin
 
 # Temperature threshold
-TEMP_THRESHOLD = 20  # Temperature in Celsius
+TEMP_THRESHOLD = 40  # Temperature in Celsius
 
 # Setup GPIO
 GPIO.setmode(GPIO.BCM)  # Use Broadcom pin numbering
