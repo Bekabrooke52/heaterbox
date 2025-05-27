@@ -4,9 +4,9 @@ Hardware
 * [JBtek 4 Channel DC 5V Relay](https://www.amazon.com/JBtek-Channel-Module-Arduino-Raspberry/dp/B00KTEN3TM/ref=sr_1_3)
 * [DHT11 Temperature and Humidity Sensor](https://www.amazon.com/Temperature-Humidity-Digital-3-3V-5V-Raspberry/dp/B07WT2HJ4F/ref=sr_1_8)
 
-This Python script, heater-controller.py, provides a solution for controlling a relay-based heater system using temperature readings from a DHT11 sensor. The system is designed to maintain a desired temperature by turning the heater on or off based on a predefined threshold.
+`heater-controller.py`, provides a solution for controlling a relay-based heater system using temperature readings from a DHT11 sensor. The system is designed to maintain a desired temperature by turning the heater on or off based on a predefined threshold.
 
-This Python script, heater-limits.py, is designed to control a heater and a fan based on ambient temperature readings from a DHT11 sensor. It continuously monitors the temperature and activates or deactivates the connected relays (for the heater and fan) to maintain the temperature within a specified range. If the temperature rises above an upper limit (20°C), both the heater and fan are turned off. Conversely, if the temperature drops below a lower limit (19°C), both the heater and fan are turned on. The script includes error handling for sensor readings and ensures proper GPIO cleanup upon termination.
+`heater-limits.py`, is designed to control a heater and a fan based on ambient temperature readings from a DHT11 sensor. It continuously monitors the temperature and activates or deactivates the connected relays (for the heater and fan) to maintain the temperature within a specified range. If the temperature rises above an upper limit (20°C), both the heater and fan are turned off. Conversely, if the temperature drops below a lower limit (19°C), both the heater and fan are turned on. The script includes error handling for sensor readings and ensures proper GPIO cleanup upon termination.
 
 Features
 * Temperature Monitoring: Reads temperature data from a DHT11 sensor connected to a specified GPIO pin.
