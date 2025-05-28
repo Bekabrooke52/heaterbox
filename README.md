@@ -28,8 +28,8 @@ sudo python3 heater-limits.py
 ## Live Setup
 ![Live setup](https://github.com/rbm0622/heaterbox/blob/main/images/live-setup.jpeg?raw=true)
 
-## Live Setup
-images/IMG_0411.jpg
+## Live Setup Using W1ThermSensor
+![IMG_6150](https://github.com/rbm0622/heaterbox/blob/main/images/IMG_6150.jpeg?raw=true)
 
 ## Wiring Diagram
 ![heaterbox wireframe](https://github.com/rbm0622/heaterbox/blob/main/images/Heater-Box.jpg?raw=true)
@@ -39,3 +39,6 @@ images/IMG_0411.jpg
 
 ## Diagram with Heater and Fan (WIP)
 ![heaterbox wireframe with heater and fan](https://github.com/rbm0622/heaterbox/blob/main/images/Heater-Box-WIP.jpg?raw=true)
+
+## Diagram with Heater and Fan Using W1ThermSensor
+![IMG_0411](https://github.com/rbm0622/heaterbox/blob/main/images/IMG_0411.jpeg?raw=true)
