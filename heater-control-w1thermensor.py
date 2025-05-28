@@ -12,8 +12,8 @@ import csv
 from datetime import datetime
 
 # Pin Definition
-RELAY_PIN_HEATER = 18 # GPIO pin corresponding to heater relay control pin
-RELAY_PIN_FAN = 23 # GPIO pin corresponding to fan relay control pin
+RELAY_PIN_HEATER = 23 # GPIO pin corresponding to heater relay control pin
+RELAY_PIN_FAN = 18 # GPIO pin corresponding to fan relay control pin
 SENSOR_PIN = 4 # GPIO pin corresponding to the Sensor control pin
 
 # Temperature threshold
