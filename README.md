@@ -28,6 +28,9 @@ sudo python3 heater-limits.py
 ## Live Setup
 ![Live setup](https://github.com/rbm0622/heaterbox/blob/main/images/live-setup.jpeg?raw=true)
 
+## Live Setup
+images/IMG_0411.jpg
+
 ## Wiring Diagram
 ![heaterbox wireframe](https://github.com/rbm0622/heaterbox/blob/main/images/Heater-Box.jpg?raw=true)
 
