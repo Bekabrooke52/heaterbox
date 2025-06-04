@@ -28,9 +28,9 @@ GPIO.setmode(GPIO.BCM)  # Use Broadcom pin numbering
 
 # Set up both relay pins as outputs
 GPIO.setup(RELAY_PIN_HEATER, GPIO.OUT)  # HEATER relay pin as output
-GPIO.output(RELAY_PIN_FAN, GPIO.LOW) # FAN relay pin as output
+GPIO.setup(RELAY_PIN_FAN, GPIO.OUT) # FAN relay pin as output
 
-GPIO.setup(RELAY_PIN_HEATER, GPIO.HIGH) # HEATER initialized to OFF
+GPIO.output(RELAY_PIN_HEATER, GPIO.HIGH) # HEATER initialized to OFF
 GPIO.output(RELAY_PIN_FAN, GPIO.HIGH) # FAN initialized to OFF
 
 # Initialize the DS18B20 Temperature Sensor
@@ -46,8 +46,8 @@ def read_temperature():
             return temperature
         else: 
             print('Sensor Error: Reading failed. Retrying...')
+           return None
         time.sleep(2)
-    return None
 
 def log_temperature(temperature):
 # Logs temperature with timestamps to CSV file.
