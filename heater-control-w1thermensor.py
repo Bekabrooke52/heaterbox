@@ -21,7 +21,7 @@ TEMP_UPPER_LIMIT = 40 # Temperature in celsius (heater turns OFF above this)
 TEMP_LOWER_LIMIT = 30 # Temperature in Celsius (heater tunrs ON below this)
 
 # Log file path
-LOG_FILE = 'temperature_log.csv'
+LOG_FILE = 'temperature_log.csv' # Adjust title as needed
 
 # Setup GPIO
 GPIO.setmode(GPIO.BCM)  # Use Broadcom pin numbering
@@ -41,13 +41,17 @@ def read_temperature():
 # Returns:
 # float: Temperature in Celsius, or None (error)
    for i in range(5): # Retries up to 5 times
-        temperature = sensor.get_temperature()
-        if temperature is not None:
+      try:
+         temperature = sensor.get_temperature()
+         if temperature is not None:
             return temperature
         else: 
             print('Sensor Error: Reading failed. Retrying...')
-           return None
-        time.sleep(2)
+      except SensorNotReadyError: # Common error with this sensor, usually do to poorely established signal connection with the bread board. Can be fixed by adjusting the pins
+         print('Sensor Error: Reading failed. Check sensor connection. Retrying...')
+         time.sleep(2)
+         pass
+      return None
 
 def log_temperature(temperature):
 # Logs temperature with timestamps to CSV file.
@@ -86,8 +90,10 @@ def main():
             if temperature is not None:
                 print(f'Temperature: {temperature:.2f}C')
                 control_relay(temperature)
+               log_temperature(temperature)
             else:
                 print('Failed to read temperature')
+               
             time.sleep(5)
     except KeyboardInterrupt:
         print('Program terminated by User.')
