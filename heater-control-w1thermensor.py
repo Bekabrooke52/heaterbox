@@ -18,7 +18,7 @@ SENSOR_PIN = 4 # GPIO pin corresponding to the Sensor control pin
 
 # Temperature threshold
 TEMP_UPPER_LIMIT = 40 # Temperature in celsius (heater turns OFF above this)
-TEMP_LOWER_LIMIT = 30 # Temperature in Celsius (heater tunrs ON below this)
+TEMP_LOWER_LIMIT = 30 # Temperature in Celsius (heater turns ON below this)
 
 # Log file path
 LOG_FILE = 'temperature_log.csv' # Adjust title as needed
@@ -94,10 +94,11 @@ def main():
             else:
                 print('Failed to read temperature')
                
-            time.sleep(5)
+            time.sleep(30)
     except KeyboardInterrupt:
         print('Program terminated by User.')
     finally:
         GPIO.cleanup() # Reset GPIO settings on exit
       
 if __name__== '__main__':
+   main()
